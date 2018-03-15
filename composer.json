@@ -1,5 +1,5 @@
 {
-	"name":"yii2-speed",
+	"name":"yii2-cmslib/speed",
 	"description": "class  speed, For yii2 extention. ",
 	"keywords": ["yii2","speed","extension"],
 	"license": "BSD-3-Clause",
