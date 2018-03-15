@@ -1,23 +1,23 @@
 {
-	"name": "yii2-speed",
-		"description": class  speed, For yii2 extention. ",
-		"keywords": ["yii2","speed","extension"],
-		"license": "BSD-3-Clause",
-		"type": "yii2-extension",
-		"support": {
-			"issues": "https://github.com/cunwang/yii2-speed/issues",
-			"forum": "http://www.yiiframework.com/forum/",
-			"wiki": "http://www.yiiframework.com/wiki/",
-			"irc": "irc://irc.freenode.net/yii",
-			"source": "https://github.com/cunwang/yii2-speed"
-		},
-		"authors": [
-		{
-			"name": "https://github.com/cunwang",
-			"email": "lodrw@sina.com"
-		}
+	"name":"yii2-speed",
+	"description": "class  speed, For yii2 extention. ",
+	"keywords": ["yii2","speed","extension"],
+	"license": "BSD-3-Clause",
+	"type": "yii2-extension",
+	"support": {
+		"issues": "https://github.com/cunwang/yii2-speed/issues",
+		"forum": "http://www.yiiframework.com/forum/",
+		"wiki": "http://www.yiiframework.com/wiki/",
+		"irc": "irc://irc.freenode.net/yii",
+		"source": "https://github.com/cunwang/yii2-speed"
+	},
+	"authors": [
+	{
+		"name": "https://github.com/cunwang",
+		"email": "lodrw@sina.com"
+	}
 	],
-		"require": {
-			"yiisoft/yii2": "*" 
-		}
+	"require": {
+		"yiisoft/yii2": "*" 
+	}
 }
