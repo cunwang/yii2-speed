@@ -20,10 +20,12 @@ composer require yii2-cmslib/speed
 
 ### 运行示例
 
-如，测试脚本1.php
-
+[1.php]
 ```php
+//引入自动加载
 require "vendor/autoload.php";
+
+//引入全名空间
 use Yii2cms\lib\speed;
 
 //类实例化
@@ -51,50 +53,50 @@ $d  = $s->data('arr'); //返回数据
 数据格式如下：
 
 ```php
-stdClass Object
+Array
 (
-	 [title] => Speed-20180316114041
-	 [flag] =>
-	 [alias] => Array
-		 (
-		  [0] => Start
-		  [1] => test1
-		  [2] => test2
-		  [3] => test3
-		  [4] => End
-		 )
+ [title] => Speed-20180316115016
+ [flag] =>
+ [alias] => Array
+ (
+  [0] => Start
+  [1] => test1
+  [2] => test2
+  [3] => test3
+  [4] => End
+ )
 
-	 [option] => Array
-	 (
-		  [0] => Option-5aab3cb9396fe
-		  [1] => Option-5aab3cb93976d
-		  [2] => Option-5aab3cba3985a
-		  [3] => Option-5aab3cbc39973
-		  [4] => Option-5aab3cbd39aa0
-	 )
+ [option] => Array
+ (
+  [0] => Option-5aab3ef847c1a
+  [1] => Option-5aab3ef847cb9
+  [2] => Option-5aab3ef947dd4
+  [3] => Option-5aab3efb47efe
+  [4] => Option-5aab3efc48024
+ )
 
-	 [time] => Array
-	 (
-		  [0] => 1521171641.2353
-		  [1] => 1521171641.2354
-		  [2] => 1521171642.2356
-		  [3] => 1521171644.2359
-		  [4] => 1521171645.2362
-	 )
+ [time] => Array
+ (
+  [0] => 1521172216.2939
+  [1] => 1521172216.2941
+  [2] => 1521172217.2944
+  [3] => 1521172219.2947
+  [4] => 1521172220.295
+ )
 
-	 [optionSpeed] => Array
-	 (
-		  [0] => 0.00011
-		  [1] => 1.00024
-		  [2] => 2.00028
-		  [3] => 1.00030
-	 )
+ [optionSpeed] => Array
+ (
+  [0] => 0.00016
+  [1] => 1.00029
+  [2] => 2.00030
+  [3] => 1.00029
+ )
 
-	 [allSpeed] => 4.00093
-	 [average] => 0.800186
+ [allSpeed] => 4.00104
+ [average] => 0.800208
  )
 
  ```
 
-以上
+ 以上
 
