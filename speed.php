@@ -2,16 +2,16 @@
 namespace Yii2cms\lib;
 
 /**
- * file speed
- * @abstract 用于程序消费记录
+ *  用于程序消费记录
  * @author <github.com/cunwang>
+ * @link https://github.com/cunwang/yii2-speed
  * @date 2018/03
- * @since 1.1
+ * @since 1.1 简化代码
  */
 class speed
 {
 	/**
-	 * final return json struct:
+	 * @property json 
 		{
 			"title":"Speed-xxx",
 			"flag":"",
@@ -27,7 +27,7 @@ class speed
 	private $speedData;
 
 	/**
-	 * init
+	 * initialize
 	 * @param $name string default NULL
 	 */
 	public function __construct($name = NULL)
