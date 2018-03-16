@@ -15,7 +15,7 @@ composer require yii2-cmslib/speed
 
 或者
 
-在composer.json添加 ```"yii2-cmslib/speed":"1.1*"``` ，然后composer update 即可。
+在composer.json添加 ```"yii2-cmslib/speed":"1.*"``` ，然后composer update 即可。
 
 
 ### 运行示例
