@@ -10,12 +10,12 @@
 此程序可以通过composer 进行安装
 
 ```php
-composer require yii2-cmslib/speed
+composer require yii2-speed/speed
 ```
 
 或者
 
-在composer.json添加 ```"yii2-cmslib/speed":"1.*"``` ，然后composer update 即可。
+在composer.json添加 ```"yii2-speed/speed":"1.*"``` ，然后composer update 即可。
 
 
 ### 运行示例
@@ -26,7 +26,7 @@ composer require yii2-cmslib/speed
 require "vendor/autoload.php";
 
 //引入全名空间
-use Yii2cms\lib\speed;
+use Yii2\lib\speed;
 
 //类实例化
 $s  = new speed();
