@@ -35,6 +35,7 @@ class speed
 		$this->speedData = [
 			'title'		=> (empty($name) ? 'Speed-' . date('Ymdhis') : $name),
 			'flag'		=> '',
+			'error'		=> [],
 		];
 		$this->setLoop('Start');
 	}
