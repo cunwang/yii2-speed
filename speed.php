@@ -1,5 +1,5 @@
 <?php
-namespace Yii2cms\lib;
+namespace Yii2\lib;
 
 /**
  *  用于程序消费记录
